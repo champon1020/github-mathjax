@@ -8,5 +8,8 @@ window.MathJax = {
   },
   imageFont: null,
   "HTML-CSS": { availableFonts: ["TeX"] },
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  TeX: { 
+    equationNumbers: { autoNumber: "AMS" },
+    extensions: ["color.js"] 
+  }
 };
